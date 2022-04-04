@@ -4,52 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style/styles.css">
     <title>Rice & Noodle Vietnamese Restaurant</title>
 </head>
 
 <body>
     <section>
-        <div>
+        <!-- <div>
             <img src="/style/pin-icon.png" alt="Pin Icon" width="20px">
             <p>Lohmühlenstraße 65, 12435 Berlin</p>
             <img src="/style/phone-icon.png" alt="Phone Icon" width="20px">
             <p>030 12345678</p>
             <p>Mo &#45; So: : 11h30 &#45; 22h30 Uhr</p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="/homepage.html">HOME</a></li>
-                <li><a href="/about-us.html">ABOUT US</a></li>
-                <li><a href="/menu.html">OUR MENU</a></li>
-                <li><a href="/products.html">PRODUCTS</a></li>
-                <li><a href="/contact.html">CONTACT US</a></li>
-            </ul>
-            <a href="/reservation.html"><button>Make a reservation</button></a>
-            <a href="https://www.lieferando.de/en/order-takeaway-berlin" target="_blank"><button>Order Home Delivery</button></a>
+        </div> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="/style/rice-and-noodle-logo.png" alt="Fit and Food Logo" width="100px">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/homepage.html"><button class="nav-btn">HOME</button></a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about-us.html"> <button class=" nav-btn ">ABOUT US</button></a>
+                        </li>
+                        <li class="nav-item "><a class="nav-link " href="/menu.html "><button class="nav-btn ">OUR MENU</button></a></li>
+                        <li class="nav-item "><a class="nav-link " href="/products.html "><button class="nav-btn ">PRODUCTS</button></a></li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="/contact.html"><button class=" nav-btn ">CONTACT US</button></a>
+                        </li>
+                    </ul>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end justify-content-ends">
+                        <a href="/reservation.html "><button class="btn " type="button ">Make a reservation</button></a>
+                        <a href="https://www.lieferando.de/en/order-takeaway-berlin " target="_blank "><button class="btn " type="button ">Order Home Delivery</button></a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </section>
     <hr>
-    <div>
-        <!-- <iframe width="800" height="500" autoplay=1 loop=1 src="https://www.youtube.com/embed/rvFG-SzIwdM?controls=0"></iframe> -->
-        <iframe width="700" height="500" src="https://www.youtube.com/embed/obRDCiSwjCs" title="The Art of Vietnamese Cuisine" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
     <section>
-        <div>
-            <h1>FRESH VIETNAMESE FOOD</h1>
-            <h3>Freshness | Tradition | Quality</h3>
-            <p>Vietnamese cuisine is one of the best and healthiest in the world. It is characterized by the large number of possible ingredients. Spices are used in many different ways, but are less spicy than in Thai or Indian cuisine. Fresh, light and
-                healthy! Our newly opened Vietnamese restaurant in Berlin near Kurfürstendamm offers just that. Come by and see for yourself. As a special service, we are happy to offer you the organisation of your celebration, whether private or business,
-                in our rooms. We are happy to arrange a buffet or catering according to your wishes. Please make your reservation in good time or simply contact us.</p>
-            <p>offers you specially selected, elaborate Vietnamese dishes Be inspired by the varied aromas from the tropical gardens and rivers of the Mekong Delta in south Vietnam. Savour the aroma of curry, lemongrass and roasted sesame. Or why not try
-                one of our fruity shakes? All our aromatic and delicious dishes are prepared according to original recipes using only the freshest ingredients.</p>
-            <p>will take you on an adventure ride in the food world with exquisite but also unique traditional Vietnamese dishes, perhaps most favorite is Pho, Bread, Beef Noodle … Moreover, with luxurious yet warm decoration, we enable all food-lovers to
-                comfortably enjoy cozy meals with their loved ones. It is never easy to build customers’ trust and loyalty, but worth the effort, we always choose the freshest ingredients, wholeheartedly dedicated to processing the best food and to make
-                sure to deliver satisfaction to all customers. At MEDAME DUNG, for sure you will get to experience the full flavor of Vietnam!</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <iframe width="550 " height="400 " src="https://www.youtube.com/embed/obRDCiSwjCs " title="The Art of Vietnamese Cuisine " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                </div>
+                <div class="col-6">
+                    <h1>FRESH VIETNAMESE FOOD</h1>
+                    <h5>Freshness | Tradition | Quality</h5>
+                    <p><strong>Vietnamese cuisine</strong> is one of the best and healthiest in the world. It is characterized by the large number of possible ingredients. Spices are used in many different ways, fresh, light and healthy! All our delicious
+                        dishes are prepared according to original recipes using only the freshest ingredients.</p>
+                    <ul>
+                        <li><strong><em>Freshness of food</em></strong>: Most meats are only briefly cooked. Vegetables are eaten fresh; if they are cooked, they are boiled or only briefly stir-fried.</li>
+                        <li><strong><em>Presence of herbs and vegetables</em></strong>: Herbs and vegetables are essential to many Vietnamese dishes and are often abundantly used.</li>
+                        <li><strong><em>Variety and harmony of textures</em></strong>: Crisp with soft, watery with crunchy, delicate with rough.</li>
+                        <li><strong><em>Broths or soup-based dishes</em></strong> are common.</li>
+                        <li><strong><em>Presentation</em></strong>: The condiments accompanying Vietnamese meals are usually colorful and arranged in eye-pleasing manners.</li>
+                    </ul>
+                    <p>I was born and grow up in a country where everyday people used to eat either <strong>RICE</strong> or <strong>NOODLE</strong> as the main dishes. At <strong>RICE & NOODLE</strong>, for sure you will get to experience the full flavor
+                        of Vietnam because we want to deliver satisfaction to all customers!</p>
+                    <a href="/menu.html"><button>View Our Menu</button></a>
+                </div>
+            </div>
         </div>
-        <button>View Menu</button>
     </section>
+    <br>
+    <!-- <section> -->
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.eatflavorly.com/wp-content/uploads/2020/08/vermacceli-email-edit.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://eatnorth.com/sites/default/files/styles/opengraph/public/field/image/vietnamese_food_history_canada.jpg?itok=VhPDkNNo" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8dmlldG5hbWVzZS1mb29kLG9yaWVudGF0aW9ufHx8fHx8MTY0OTEwODAzOA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+    </div> -->
+    <!-- </section> -->
     <hr>
     <footer>
         <div>
@@ -66,11 +118,11 @@
         </div>
         <div>
             <h5>Payment</h5>
-            <img src="#" alt="Mastercard">
+            <img src="# " alt="Mastercard ">
         </div>
         <hr>
         <div>
-            <p>Copyright &copy; 2022 All Rights Reserved by <a href="/homepage.html">Rice & Noodle Vietnamese Restaurant</a>.
+            <p>Copyright &copy; 2022 All Rights Reserved by <a href="/homepage.html ">Rice & Noodle Vietnamese Restaurant</a>.
             </p>
         </div>
     </footer>
