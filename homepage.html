@@ -12,17 +12,15 @@
 </head>
 
 <body>
-    <section>
-        <!-- <div>
-            <img src="/style/pin-icon.png" alt="Pin Icon" width="20px">
-            <p>Lohmühlenstraße 65, 12435 Berlin</p>
-            <img src="/style/phone-icon.png" alt="Phone Icon" width="20px">
-            <p>030 12345678</p>
-            <p>Mo &#45; So: : 11h30 &#45; 22h30 Uhr</p>
-        </div> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <section class="bg-darkblue">
+        <div class="nav-text">
+            <i class="bi bi-geo-alt"> Lohmühlenstraße 65, 12435 Berlin</i>
+            <i class="bi bi-telephone"> 030 12345678</i>
+            <i class="bi bi-clock"> Mo &#45; So:  11h30 &#45; 22h30 Uhr</i>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <img src="/style/rice-and-noodle-logo.png" alt="Fit and Food Logo" width="100px">
+                <img src="/style/rice-and-noodle-logo.png" alt="Rice & Noodle Logo" width="90px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                </button>
@@ -38,22 +36,21 @@
                             <a class="nav-link " href="/contact.html"><button class=" nav-btn ">CONTACT US</button></a>
                         </li>
                     </ul>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end justify-content-ends">
-                        <a href="/reservation.html "><button class="btn " type="button ">Make a reservation</button></a>
-                        <a href="https://www.lieferando.de/en/order-takeaway-berlin " target="_blank "><button class="btn " type="button ">Order Home Delivery</button></a>
-                    </div>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-ends">
+                    <a href="/reservation.html "><button class="nav-btn ">Make a reservation</button></a>
+                    <a href="https://www.lieferando.de/en/order-takeaway-berlin " target="_blank "><button class="nav-btn ">Order Delivery</button></a>
                 </div>
             </div>
         </nav>
     </section>
-    <hr>
     <section>
-        <div class="container">
+        <div class="container main-content">
             <div class="row">
                 <div class="col-6">
                     <iframe width="550 " height="400 " src="https://www.youtube.com/embed/obRDCiSwjCs " title="The Art of Vietnamese Cuisine " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
                 </div>
-                <div class="col-6">
+                <div class="col-6 introduction">
                     <h1>FRESH VIETNAMESE FOOD</h1>
                     <h5>Freshness | Tradition | Quality</h5>
                     <p><strong>Vietnamese cuisine</strong> is one of the best and healthiest in the world. It is characterized by the large number of possible ingredients. Spices are used in many different ways, fresh, light and healthy! All our delicious
@@ -67,63 +64,51 @@
                     </ul>
                     <p>I was born and grow up in a country where everyday people used to eat either <strong>RICE</strong> or <strong>NOODLE</strong> as the main dishes. At <strong>RICE & NOODLE</strong>, for sure you will get to experience the full flavor
                         of Vietnam because we want to deliver satisfaction to all customers!</p>
-                    <a href="/menu.html"><button>View Our Menu</button></a>
+                    <a href="/menu.html"><button class="view-menu-btn">View Menu<span class="bi bi-caret-right-fill"></span></button></a>
                 </div>
             </div>
         </div>
     </section>
     <br>
-    <!-- <section> -->
-    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://www.eatflavorly.com/wp-content/uploads/2020/08/vermacceli-email-edit.jpg" class="d-block w-100" alt="...">
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-item">
-                <img src="https://eatnorth.com/sites/default/files/styles/opengraph/public/field/image/vietnamese_food_history_canada.jpg?itok=VhPDkNNo" class="d-block w-100" alt="...">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.eatflavorly.com/wp-content/uploads/2020/08/vermacceli-email-edit.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://eatnorth.com/sites/default/files/styles/opengraph/public/field/image/vietnamese_food_history_canada.jpg?itok=VhPDkNNo" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8dmlldG5hbWVzZS1mb29kLG9yaWVudGF0aW9ufHx8fHx8MTY0OTEwODAzOA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
-                    class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-    </div> -->
-    <!-- </section> -->
-    <hr>
-    <footer>
-        <div>
-            <h5>Quick Links</h5>
         </div>
-        </div>
+    </section>
+    <footer class="bg-darkblue">
         <div>
-            <h5>Contact us</h5>
             <ul>
+                <li><strong>RICE & NOODLE</strong></li>
                 <li>Address: Lohmühlenstraße 65, 12435 Berlin</li>
                 <li>Phone number: 030 12345678</li>
                 <li>Email: @code.com</li>
             </ul>
         </div>
-        <div>
-            <h5>Payment</h5>
-            <img src="# " alt="Mastercard ">
-        </div>
-        <hr>
-        <div>
-            <p>Copyright &copy; 2022 All Rights Reserved by <a href="/homepage.html ">Rice & Noodle Vietnamese Restaurant</a>.
-            </p>
+        <div class="copyright">
+            <p>Copyright &copy; 2022 All Rights Reserved by <a href="/homepage.html ">Rice & Noodle Vietnamese Restaurant</a></p>
         </div>
     </footer>
 </body>

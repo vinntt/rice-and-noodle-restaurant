@@ -12,46 +12,47 @@
 </head>
 
 <body>
-    <section class="nav-bar">
-        <!-- <div>
-            <img src="/style/pin-icon.png" alt="Pin Icon" width="20px">
-            <p>Lohmühlenstraße 65, 12435 Berlin</p>
-            <img src="/style/phone-icon.png" alt="Phone Icon" width="20px">
-            <p>030 12345678</p>
-            <p>Mo &#45; So: : 11h30 &#45; 22h30 Uhr</p>
-        </div> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <section class="bg-darkblue">
+        <div class="nav-text">
+            <i class="bi bi-geo-alt"> Lohmühlenstraße 65, 12435 Berlin</i>
+            <i class="bi bi-telephone"> 030 12345678</i>
+            <i class="bi bi-clock"> Mo &#45; So:  11h30 &#45; 22h30 Uhr</i>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <img src="/style/rice-and-noodle-logo.png" alt="Fit and Food Logo" width="100px">
+                <img src="/style/rice-and-noodle-logo.png" alt="Rice & Noodle Logo" width="90px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/homepage.html">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/about-us.html">ABOUT US</a></li>
-                        <li class="nav-item "><a class="nav-link " href="/menu.html ">OUR MENU</a></li>
-                        <li class="nav-item "><a class="nav-link " href="/products.html ">PRODUCTS</a></li>
-                        <li class="nav-item "><a class="nav-link " href="/contact.html">CONTACT US</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/homepage.html"><button class="nav-btn">HOME</button></a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about-us.html"> <button class=" nav-btn ">ABOUT US</button></a>
+                        </li>
+                        <li class="nav-item "><a class="nav-link " href="/menu.html "><button class="nav-btn ">OUR MENU</button></a></li>
+                        <li class="nav-item "><a class="nav-link " href="/products.html "><button class="nav-btn ">PRODUCTS</button></a></li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="/contact.html"><button class=" nav-btn ">CONTACT US</button></a>
+                        </li>
                     </ul>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end justify-content-ends">
-                        <a href="/reservation.html "><button class="btn me-md-2"type="button ">Make a reservation</button></a>
-                        <a href="https://www.lieferando.de/en/order-takeaway-berlin " target="_blank "><button class="btn" type="button ">Order Home Delivery</button></a>
-                    </div>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-ends">
+                    <a href="/reservation.html "><button class="nav-btn ">Make a reservation</button></a>
+                    <a href="https://www.lieferando.de/en/order-takeaway-berlin " target="_blank "><button class="nav-btn ">Order Delivery</button></a>
                 </div>
             </div>
         </nav>
     </section>
-    <hr>
     <article>
-        <section>
-            <h1>Fresh ingredients</h1>
+        <section class="menu-introduction">
+            <h1>MENU</h1>
             <p>We spoil you with a traditional and authentic Vietnamese cuisine, as well as with culinary delights according to your own creativity, which will surely please your palate. Whichever dish you choose, we can guarantee that every dish of your
                 choice will be carefully prepared with high quality ingredients and selected natural flavours.</p>
         </section>
-        <section>
-            <h2>SNACKS</h2>
-            <div class="d-flex align-content-start flex-wrap">
+        <section class="menu-section-title">
+            <h4>SNACKS</h4>
+            <div class="d-flex align-content-start flex-wrap menu-cards">
                 <figure class="card" style="width: 18rem;">
                     <img src="https://cdn.daynauan.info.vn/wp-content/uploads/2019/01/goi-cuon.jpg" width="230px" height="170px" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -87,7 +88,7 @@
             </div>
         </section>
         <section>
-            <h2>BANH MI/ SANDWICHES</h2>
+            <h4>BANH MI/ SANDWICHES</h4>
             <div class="d-flex align-content-start flex-wrap">
                 <figure class="card" style="width: 18rem;">
                     <img src="https://omnivorescookbook.com/wp-content/uploads/2020/03/1912_Leftover-Ham-Banh-Mi_550-500x375.jpg" width="230px" height="170px" class="card-img-top" alt="...">
@@ -108,7 +109,7 @@
             </div>
         </section>
         <section>
-            <h2>NOODLE</h2>
+            <h4>NOODLE</h4>
             <div class="d-flex align-content-start flex-wrap">
                 <figure class="card" style="width: 18rem;">
                     <img src="https://inhat.vn/wp-content/uploads/2020/08/pho_de_nhat_gia_truyen.jpg" width="230px" height="170px" class="card-img-top" alt="...">
@@ -153,7 +154,7 @@
             </div>
         </section>
         <section>
-            <h2>COM/ RICE</h2>
+            <h4>COM/ RICE</h4>
             <div class="d-flex align-content-start flex-wrap">
                 <figure class="card" style="width: 18rem;">
                     <img src="https://s3-media0.fl.yelpcdn.com/bphoto/mQu88pOA8JAV-4OO2o0Xow/l.jpg" width="230px" height="170px" class="card-img-top" alt="...">
@@ -182,7 +183,7 @@
             </div>
         </section>
         <section>
-            <h2>DESSERTS</h2>
+            <h4>DESSERTS</h4>
             <div class="d-flex align-content-start flex-wrap">
                 <figure class="card" style="width: 18rem;">
                     <img src="https://img.taste.com.au/JLZ4LG6m/taste/2016/11/banana-coconut-tapioca-puddings-che-chuoi-33083-1.jpeg" width="230px" height="170px" class="card-img-top" alt="...">
@@ -203,7 +204,7 @@
             </div>
         </section>
         <section>
-            <h2>DRINKS</h2>
+            <h4>DRINKS</h4>
             <div class="d-flex align-content-start flex-wrap">
                 <figure class="card" style="width: 18rem;">
                     <img src="https://pediaa.com/wp-content/uploads/2021/11/Coffee.jpg" width="230px" height="170px" class="card-img-top" alt="...">
@@ -271,24 +272,17 @@
             </div>
         </section>
     </article>
-    <hr>
-    <footer>
+    <footer class="bg-darkblue">
         <div>
-            <h5>Quick Links</h5>
-        </div>
-        </div>
-        <div>
-            <h5>Contact us</h5>
             <ul>
+                <li><strong>RICE & NOODLE</strong></li>
                 <li>Address: Lohmühlenstraße 65, 12435 Berlin</li>
                 <li>Phone number: 030 12345678</li>
                 <li>Email: @code.com</li>
             </ul>
         </div>
-        <hr>
-        <div>
-            <p>Copyright &copy; 2022 All Rights Reserved by <a href="/homepage.html ">Rice & Noodle Vietnamese Restaurant</a>.
-            </p>
+        <div class="copyright">
+            <p>Copyright &copy; 2022 All Rights Reserved by <a href="/homepage.html ">Rice & Noodle Vietnamese Restaurant</a></p>
         </div>
     </footer>
 </body>

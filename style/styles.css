@@ -1,11 +1,91 @@
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins&display=swap");
 body {
-    padding: 10px;
+    /* padding: 10px; */
     font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
     height: 100vh;
     font-size: 14px;
 }
 
-.nav-bar {
-    background-color: #494449;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #355a15;
+}
+
+.bg-darkblue {
+    background-color: #151F28;
+    color: white;
+}
+
+.nav-text {
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.nav-btn {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    margin-top: 100px;
+    color: whitesmoke
+}
+
+footer li {
+    list-style-type: none;
+}
+
+
+/* style for homepage */
+
+.main-content {
+    margin-top: 50px;
+}
+
+iframe {
+    margin-top: 30px;
+}
+
+.introduction {
+    font-size: 13px;
+    text-align: justify
+}
+
+.view-menu-btn {
+    color: white;
+    font-size: 16px;
+    background-color: #355a15;
+    /* background-color: #92817a; */
+    padding: 10px
+}
+
+#carouselExampleIndicators {
+    width: 550px;
+    margin: 0 auto;
+}
+
+
+/* style for menu */
+
+.menu-introduction {
+    font-size: 14px;
+    text-align: center;
+    margin: 50px;
+}
+
+.menu-section-title h4 {
+    text-align: center;
+}
+
+.menu-cards {
+    margin: 20px
 }
