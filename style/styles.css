@@ -136,3 +136,9 @@ iframe {
     /* background-color: #92817a; */
     padding: 10px
 }
+
+input[type=number],
+input[type=date],
+input[type=time] {
+    font-size: 14px;
+}

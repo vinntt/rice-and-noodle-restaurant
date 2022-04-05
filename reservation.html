@@ -98,10 +98,16 @@
                                                     <input type="text" id="email" name="Email" class="form-control form-control-lg" required>
                                                 </div>
                                             </div>
-                                            <div class="col-md mb-4">
+                                            <div class="col-md-6 mb-4">
                                                 <div class="form-outline">
                                                     <label class="form-label" for="number-of-people">Number Of People:</label>
-                                                    <input type="number" id="number-of-people" name="Number Of People" class="form-control form-control-lg" min="1" max="30" required>
+                                                    <input type="number" id="number-of-people" name="Number Of People" class="form-control form-control-lg" value="0" min="1" max="30" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mb-4">
+                                                <div class="form-outline">
+                                                    <label class="form-label" for="kid">Number of Kids:</label>
+                                                    <input type="number" id="kid" name="Number of Kids" class="form-control form-control-lg" value="0" min="1" max="30">
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mb-4">
@@ -116,10 +122,10 @@
                                                     <input type="time" id="arrival-time" name="Arrival time" class="form-control form-control-lg" required>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 mb-4">
+                                            <div class="col-md-12 mb-4">
                                                 <div class="form-outline">
                                                     <label class="form-label" for="message">Message:</label>
-                                                    <input type="textarea" id="message" name="Message" class="form-control form-control-lg" rows="4" cols="50" required>
+                                                    <textarea id="message" name="Message" class="form-control form-control-lg" rows="3"></textarea>
                                                 </div>
                                             </div>
                                         </div>
