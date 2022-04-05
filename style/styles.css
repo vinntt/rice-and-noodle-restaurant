@@ -20,6 +20,15 @@ h6 {
     color: white;
 }
 
+.navbar-content {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    margin-bottom: 1000px;
+}
+
 .nav-text {
     text-align: right;
     font-size: 12px;
@@ -30,6 +39,10 @@ h6 {
     padding: 8px;
     border-radius: 10px;
     background-color: #e0e0e0;
+}
+
+.page-main-content {
+    padding-top: 150px;
 }
 
 footer {
@@ -48,11 +61,12 @@ footer li {
 /* style for homepage */
 
 .main-content {
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
 
 iframe {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .introduction {
@@ -82,10 +96,43 @@ iframe {
     margin: 50px;
 }
 
-.menu-section-title h4 {
-    text-align: center;
+.menu-introduction>p {
+    margin: 10px 100px 0
 }
 
-.menu-cards {
+.menu-section-title h4 {
+    text-align: center;
     margin: 20px
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body {
+    font-size: 12px;
+}
+
+.card {
+    margin: 18px
+}
+
+
+/* style for reservation */
+
+.reservation-description {
+    text-align: center;
+    margin: 50px
+}
+
+.reservation-description p {
+    margin: 30px 150px 0
+}
+
+.reservation-btn {
+    color: white;
+    font-size: 16px;
+    background-color: #355a15;
+    /* background-color: #92817a; */
+    padding: 10px
 }
