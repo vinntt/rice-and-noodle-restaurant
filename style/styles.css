@@ -114,7 +114,7 @@ iframe {
 }
 
 .card {
-    margin: 18px
+    margin: 15px
 }
 
 
@@ -122,7 +122,7 @@ iframe {
 
 .reservation-description {
     text-align: center;
-    margin: 50px
+    margin: 50px 0
 }
 
 .reservation-description p {
@@ -141,4 +141,17 @@ input[type=number],
 input[type=date],
 input[type=time] {
     font-size: 14px;
+}
+
+
+/* style for about us */
+
+.mg-top-bottom {
+    margin: 70px 0;
+    display: flex;
+    align-items: center;
+}
+
+.mg-top-bottom .col-6 {
+    text-align: justify;
 }
