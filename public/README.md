@@ -1,6 +1,6 @@
-![alt text](/style/rice-and-noodle-logo.png)
+![](./style/rice-and-noodle-logo.png)
 # RICE & NOODLE VIETNAMESE RESTAURANT 👨‍🍳
-**Live preview: [click me]()**
+**Live preview: [click me](https://nguyen-challenge-stage2.herokuapp.com/about-us.html)**
 ## Description
 A web app which allows customer to read the restaurant's story, check out the menu and food photos. Moreover, the customer can make a reservation or contact with the restaurant by filling the form.
 
