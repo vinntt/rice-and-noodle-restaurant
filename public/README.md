@@ -6,11 +6,17 @@ A web app which allows customer to read the restaurant's story, check out the me
 
 There will be 6 pages in the website:
 - HomePage
+![](https://res.cloudinary.com/vinntt/image/upload/v1649280729/restaurant/screenshot/homepage_vbk7oz.png)
 - About Us
+![](https://res.cloudinary.com/vinntt/image/upload/v1649280779/restaurant/screenshot/history_hxrhgf.png)
 - Menu
+![](https://res.cloudinary.com/vinntt/image/upload/v1649280728/restaurant/screenshot/menu_x1fxbg.png)
 - Gallery
+![](https://res.cloudinary.com/vinntt/image/upload/v1649280831/restaurant/screenshot/gallery_nj9mzj.png)
 - Reservation
+![](https://res.cloudinary.com/vinntt/image/upload/v1649280658/restaurant/screenshot/reservation_k4nhpl.png)
 - Contact
+![](https://res.cloudinary.com/vinntt/image/upload/v1649280650/restaurant/screenshot/contact_uzlw5i.png)
 
 The web app was built with HTML, CSS, and Boostrap Framework.
 
@@ -21,5 +27,6 @@ The web app was built with HTML, CSS, and Boostrap Framework.
 
 ## Tools Used
 1. Bootstrap Icon
-2. Canva (logo, presentation)
-3. Code Editor: VS Code
+2. Code Editor: VS Code
+3. Canva (logo, presentation)
+4. Cloudinary (images storage)
