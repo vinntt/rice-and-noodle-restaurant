@@ -1,4 +1,4 @@
-![](./style/rice-and-noodle-logo.png)
+![](./public/style/rice-and-noodle-logo.png)
 # RICE & NOODLE VIETNAMESE RESTAURANT 👨‍🍳
 **Live preview: [click me](https://nguyen-challenge-stage2.herokuapp.com/about-us.html)**
 ## Description
